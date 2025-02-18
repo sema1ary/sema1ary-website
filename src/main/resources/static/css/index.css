@@ -1,3 +1,7 @@
+body {
+    text-align: center;
+}
+
 .about_section {
     display: flex;
     flex-direction: column;
@@ -10,7 +14,7 @@
 
 .skills {
     width: 500px;
-    height: 400px;
+    height: 360px;
 
     background-color: rgba(34, 31, 31, 0.342);
     border-radius: 10px;
@@ -32,8 +36,6 @@
 }
 
 .bukkit {
-    text-align: center;
-
     margin-top: 0px;
     margin-bottom: 0px;
 }
@@ -44,8 +46,40 @@
 }
 
 .ormlite {
-    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 
+.spring_title {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.spring {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.skills_2_title {
+    margin-bottom: 0px;
+}
+
+.lombok_title {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.lombok {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.junit_title {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.junit {
     margin-top: 0px;
     margin-bottom: 0px;
 }
