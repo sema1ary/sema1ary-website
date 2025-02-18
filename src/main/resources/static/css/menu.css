@@ -1,0 +1,35 @@
+.menu_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.username {
+    text-decoration: underline;
+}
+
+.menu_frame {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    width: 500px;
+    height: 20px;
+
+    background-color: rgba(34, 31, 31, 0.342);
+    border-radius: 10px;
+    border: 2px solid rgb(97, 100, 100);
+    box-shadow: 0 0 40px 0 rgb(97, 100, 100);
+}
+
+.menu_main {
+    margin-left: 15px;
+}
+
+.menu_github {
+    margin-left: 15px;
+}
+
+.menu_thanks {
+    margin-left: 15px;
+}

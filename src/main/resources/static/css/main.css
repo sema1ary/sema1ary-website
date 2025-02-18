@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'houschka';
+    src: url('../font/houschka.otf') format('truetype');
+}
+
+body {
+    background-color: rgb(27, 27, 27);
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+
+    font-family: 'houschka';
+    color: rgb(209, 206, 206);
+}

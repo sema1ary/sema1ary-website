@@ -1,0 +1,57 @@
+.thanks_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.thanks_persons {
+    width: 500px;
+    height: 400px;
+
+    background-color: rgba(34, 31, 31, 0.342);
+    border-radius: 10px;
+    border: 2px solid rgb(97, 100, 100);
+    box-shadow: 0 0 40px 0 rgb(97, 100, 100);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+}
+
+.elusiin_title {
+    margin-bottom: 0px;
+}
+
+.elusiin_desc {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.neroduckale_title {
+    margin-bottom: 0px;
+}
+
+.neroduckale_desc {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.dwyur_title {
+    margin-bottom: 0px;
+}
+
+.dwyur_desc {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.laffeymyth_title {
+    margin-bottom: 0px;
+}
+
+.laffeymyth_desc {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
