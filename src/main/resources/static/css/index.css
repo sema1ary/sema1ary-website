@@ -84,3 +84,47 @@ body {
     margin-top: 0px;
     margin-bottom: 0px;
 }
+
+.projects_frame {
+    width: 500px;
+    height: 250px;
+
+    background-color: rgba(34, 31, 31, 0.342);
+    border-radius: 10px;
+    border: 2px solid rgb(97, 100, 100);
+    box-shadow: 0 0 40px 0 rgb(97, 100, 100);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vidoskim_api_title {
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.vidoskim_api_desc {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.rating_title {
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.rating_desc {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.sema1ary_website_title {
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.sema1ary_website_desc {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}

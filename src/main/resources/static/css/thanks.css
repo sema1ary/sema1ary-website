@@ -6,7 +6,7 @@
 
 .thanks_persons {
     width: 500px;
-    height: 310px;
+    height: 380px;
 
     background-color: rgba(34, 31, 31, 0.342);
     border-radius: 10px;
@@ -23,6 +23,7 @@
 .elusiin_title {
     margin-top: 10px;
     margin-bottom: 0px;
+    text-decoration: underline;
 }
 
 .elusiin_desc {
@@ -53,6 +54,15 @@
 }
 
 .laffeymyth_desc {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.ds_divine_title {
+    margin-bottom: 0px;
+}
+
+.ds_divine_desc {
     margin-top: 0px;
     margin-bottom: 0px;
 }
