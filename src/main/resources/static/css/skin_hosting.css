@@ -1,0 +1,17 @@
+.upload_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 50px;
+}
+
+.upload_frame {
+    width: 500px;
+    height: 200px;
+
+    background-color: rgba(34, 31, 31, 0.342);
+    border-radius: 10px;
+    border: 2px solid rgb(97, 100, 100);
+    box-shadow: 0 0 40px 0 rgb(97, 100, 100);
+}

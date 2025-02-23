@@ -7,6 +7,7 @@
 
         <link rel="stylesheet" href="../css/main.css">
         <link rel="stylesheet" href="../css/menu.css">
+        <link rel="stylesheet" href="../css/skin_hosting.css">
     </head>
 
     <body>
@@ -30,6 +31,16 @@
                 <h4 class="menu_skin_hosting">
                     <a href="skin_hosting.html">Skin Hosting</a>
                 </h4>
+            </div>
+        </div>
+
+        <div class="upload_section">
+            <div class="upload_frame">
+                <h1>Загрузка изображения</h1>
+                <form action="/api/v1/image/upload" method="post" enctype="multipart/form-data">
+                    <input type="file" name="image" required>
+                    <button type="submit">Загрузить</button>
+                </form>
             </div>
         </div>
     </body>
