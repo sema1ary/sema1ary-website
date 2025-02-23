@@ -21,6 +21,7 @@
 }
 
 .upload_input {
+    cursor: pointer;
     font-family: 'houschka';
     color: white;
 }
