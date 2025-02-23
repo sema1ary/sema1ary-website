@@ -7,9 +7,30 @@
 }
 
 .upload_frame {
-    width: 500px;
-    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
+    width: 500px;
+    height: 170px;
+
+    background-color: rgba(34, 31, 31, 0.342);
+    border-radius: 10px;
+    border: 2px solid rgb(97, 100, 100);
+    box-shadow: 0 0 40px 0 rgb(97, 100, 100);
+}
+
+.upload_input {
+    font-family: 'houschka';
+    color: white;
+}
+
+.upload_button {
+    width: 100px;
+    height: 35px;
+
+    font-family: 'houschka';
+    color: white;
     background-color: rgba(34, 31, 31, 0.342);
     border-radius: 10px;
     border: 2px solid rgb(97, 100, 100);

@@ -36,10 +36,10 @@
 
         <div class="upload_section">
             <div class="upload_frame">
-                <h1>Загрузка изображения</h1>
+                <h1>Загрузка скинов</h1>
                 <form action="/api/v1/image/upload" method="post" enctype="multipart/form-data">
-                    <input type="file" name="image" required>
-                    <button type="submit">Загрузить</button>
+                    <input class="upload_input" id="file-upload" type="file" name="image" required>
+                    <button class="upload_button" type="submit">Загрузить</button>
                 </form>
             </div>
         </div>
